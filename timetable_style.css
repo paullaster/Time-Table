@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 50%;
+}
+body{
+    box-sizing: border-box;
+    padding: .5em;
+    background: linear-gradient(to right bottom, rgba(240, 236, 236,.7) 0% ,rgba(240, 236, 236,.7) 50%, rgba(133, 130, 130, 0.7)50% );
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading{
+    background: linear-gradient( to right bottom, rgba(177, 219, 177, 0.705), rgba(94, 128, 94, 0.705));
+    widows: 30em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: .1em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    box-shadow: 1em 1.5em 3em 0 rgba(0, 0, 0, 0.375);
+}
+.heading-primary{
+margin: .8em 1em;
+font-weight: 900;
+font-size: 2.2em;
+color: teal;
+}
+.heading-secondary{
+    margin: .8em 1em;
+    font-weight: 800;
+    font-size: 1.7em;
+    color: teal;
+}
+.heading-tertiary{
+    margin: .8em 1em;
+    font-weight: 700;
+    font-size: 1.5em;
+    color: teal;
+}
+.heading-supplementary{
+    margin: .8em  1em;
+    padding-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.4em;
+    color: teal;
+}
+.table{
+    margin-top:-1em;
+    background: rgba(142, 156, 182, 0.705);
+    padding: .5em .2em;
+    
+    box-shadow: .1em 2em 4em 0 rgba(0, 0, 0, 0.747);
+    width: 100%;
+    border-top-left-radius: .2em;
+    border-top-right-radius: .2em;
+   
+}
+.element{
+    border: .2em solid grey;
+    border-collapse: collapse;
+    margin: .5em 2em;
+    width: 95%;
+}
+.table-header__day{
+   text-transform: uppercase;
+    border: .1em solid black;
+    padding: 2em 1em;
+    margin: 0 1em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.seven-eight{
+    border: .1em solid black;
+    padding: .6em .8em;
+    margin: 0 .5em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.eight-nine{
+    border: .1em solid black;
+    padding: .6em .8em;
+    margin: 0 .5em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.nine-ten{
+    border: .1em solid black;
+    padding: .6em .8em;
+    margin: 0 .5em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.ten-eleven{
+    border: .1em solid black;
+    padding: .6em .8em;
+    margin: 0 .5em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.eleven-twelve{
+    border: .1em solid black;
+    padding: .6em .8em;
+    margin: 0 .5em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.twelve-one{
+    border: .1em solid black;
+    padding: .6em .8em;
+    margin: 0 .5em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.one-two{
+    border: .1em solid black;
+    padding: .6em .8em;
+    margin: 0 .5em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.two-three{
+    border: .1em solid black;
+    padding: .6em .8em;
+    margin: 0 .5em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.three-four{
+    border: .1em solid black;
+    padding: .6em .8em;
+    margin: 0 .5em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.four-five{
+    border: .1em solid black;
+    padding: .6em .8em;
+    margin: 0 .5em;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+td{
+    border: .1em solid black;
+    padding: .8em 1em;
+    text-transform:uppercase;
+    font-size: 1.6em;
+    text-align: center;
+}
+.specific{
+    letter-spacing: 2em;
+    font-size: 3em;
+    font-weight:900 ;
+    margin: 1em .5em;
+    text-transform: uppercase;
+    margin-left:33%;
+}
+ol{
+    margin-left: 30%;
+    list-style: upper-roman;
+}
+li{
+    
+    text-transform: uppercase;
+    margin: 1em 1.4em;
+    font-size: 1.5em;
+    padding: .4em .9em;
+    
+}
+li:first-child{
+    margin: .2rem 1em;
+}
+figcaption{
+    font-size:1.4em;
+    text-transform: capitalize;
+    margin-right:10% ;
+    text-align:right;
+
+}
+cite{
+    margin-right:5%;
+    display:block;
+    text-align: right;
+    font-size:1.3em;
+    text-transform:capitalize;
+}
+footer{
+    background: rgba(131, 161, 216, 0.405);
+    margin-top:-.2em ;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+.content{
+    color:black;
+    font-size:1.6em;
+    text-align:center;
+    text-transform:uppercase;
+    padding: .5em .7em;
+    font-weight:900;
+}
+
+.grid{
+    display: table;
+    
+}
+.row--of-2{
+    
+    display: table-cell;
+}
