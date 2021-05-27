@@ -47,8 +47,7 @@ color: teal;
 .element{
     border: .2em solid grey;
     border-collapse: collapse;
-    margin: .5em 2em;
-    width: 95%;
+    width: 100%;
 }
 .table-header__day{
    text-transform: uppercase;
