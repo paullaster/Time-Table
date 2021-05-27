@@ -221,7 +221,7 @@ footer{
     .element{
         border: .2em solid grey;
         border-collapse: collapse;
-        width: 70%;
+        width: 100%;
     }
     .heading{
         background: linear-gradient( to right bottom, rgba(177, 219, 177, 0.705), rgba(94, 128, 94, 0.705));
