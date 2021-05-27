@@ -232,7 +232,7 @@ footer{
 @media only screen and (max-width:600px){
     .main{
         width: 100%;
-        background-color: orangered;
+        /*background-color: orangered;*/
     }
     .element{
         border: .2em solid grey;
