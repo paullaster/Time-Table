@@ -218,6 +218,11 @@ footer{
      }
 }
 @media only screen and (max-width:600px){
+    .element{
+        border: .2em solid grey;
+        border-collapse: collapse;
+        width: 70%;
+    }
     .heading{
         background: linear-gradient( to right bottom, rgba(177, 219, 177, 0.705), rgba(94, 128, 94, 0.705));
         widows: 30em;
