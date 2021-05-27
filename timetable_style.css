@@ -214,9 +214,26 @@ footer{
      }
      .row{
          margin-bottom: .1em;
+         text-align: center;
      }
 }
+@media only screen and (max-width: 399px){
+    .main{
+        width: 50%;
+    }
+    td{
+        border: .1em solid black;
+        padding: .2em .1em;
+        text-transform:uppercase;
+        font-size: 1.1em;
+        text-align: center;
+    }
+}
 @media only screen and (max-width:600px){
+    .main{
+        width: 100%;
+        background-color: orangered;
+    }
     .element{
         border: .2em solid grey;
         border-collapse: collapse;
